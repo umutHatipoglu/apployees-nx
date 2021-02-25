@@ -4,9 +4,10 @@
     "angular.json": "*",
     "workspace.json": "*",
     "package.json": "*",
-    "tsconfig.json": "*",
     ".eslintrc": "*",
-    "nx.json": "*"
+    "nx.json": "*",
+    "tsconfig.base.json": "*",
+    ".eslintrc.json": "*"
   },
   "projects": {
     "webserver": {
@@ -33,5 +34,8 @@
     "level-task-runner": {
       "tags": []
     }
+  },
+  "affected": {
+    "defaultBase": "master"
   }
 }

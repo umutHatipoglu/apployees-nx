@@ -3,7 +3,8 @@
  * All Rights Reserved.
  ******************************************************************************/
 module.exports = {
-  name: "examples-webserver",
-  preset: "../../../jest.config.js",
+  preset: "../../../jest.preset.js",
   coverageDirectory: "../../../coverage/apps/examples/webserver",
+  globals: { "ts-jest": { tsConfig: "<rootDir>/tsconfig.spec.json" } },
+  displayName: "examples-webserver",
 };
